@@ -50,7 +50,7 @@ Pre-requisites[ TAKE AMAZON LINUX2 SYSTEM t2.micro]:
     
 Clone code from github:
 -------
-    git clone https://github.com/praveen1994dec/spring-cloud-kubernetes.git
+    git clone https://github.com/shivam086r/Java-Springboot-CICD-K8S-Deployment.git
     cd spring-cloud-kubernetes/kubernetes-configmap-reload
     
 Build Maven Artifact:
@@ -59,7 +59,7 @@ Build Maven Artifact:
  
 Build Docker image for Springboot Application
 --------------
-    docker build -t praveen1994dec/kubernetes-configmap-reload .
+    docker build -t shivam086r/kubernetes-configmap-reload .
   
 Docker login
 -------------
@@ -67,7 +67,7 @@ Docker login
     
 Push docker image to dockerhub
 -----------
-    docker push praveen1994dec/kubernetes-configmap-reload
+    docker push shivam086r/kubernetes-configmap-reload
     
 Deploy Spring Application:
 --------
